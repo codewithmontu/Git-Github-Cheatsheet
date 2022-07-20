@@ -21,6 +21,9 @@ the project folder by right click do open with 'git base') :
 touch .gitignore   --( optional )
 	( '.gitignore' - eg.: 'big_some_library_folder/' if you don't want to push into Github due to big size. )
 	( 'touch' - to creat empty file )
+touch .gitignore
+	(Host github.com 
+ 	IdentityFile ~/.ssh/github_rsa)
 git config --global user.name <codewithmontu>
 (or)
 git config --global user.name <"code with montu">
